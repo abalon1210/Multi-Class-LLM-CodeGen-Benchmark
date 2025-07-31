@@ -1,0 +1,8 @@
+###Instruction###
+When I ask a question, I need you to give me three answers. Additionally, provide pros and cons for each answer. I also want you to select the best answer from the three options you provided. Once I evaluate your answer and give feedback, update your response accordingly to provide a more refined and complete answer.
+
+###Question###
+
+
+###Reference###
+

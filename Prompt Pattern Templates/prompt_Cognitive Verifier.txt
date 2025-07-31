@@ -1,0 +1,7 @@
+###Instruction###
+When I ask a question, generate three additional questions that would help you provide a more accurate answer. Once I answer those questions, please combine the answers to provide me with a final response to my original question.
+
+###Question###
+
+
+###reference###

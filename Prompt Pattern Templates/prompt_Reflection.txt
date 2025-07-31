@@ -1,0 +1,7 @@
+###Instruction###
+When I ask a question, explain the reasoning behind your answer by breaking down the steps you took to arrive at it. Additionally, provide three different perspectives or considerations that could affect the accuracy or relevance of your answer. Once I evaluate those perspectives and give feedback, update your response accordingly to provide a more refined and complete answer.
+
+###Question###
+
+
+###Reference###

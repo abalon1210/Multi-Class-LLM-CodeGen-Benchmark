@@ -25,12 +25,12 @@ It currently includes two independent tasks:
 <code>.
 ├── Experiment Introduction.pdf
 ├── ScreenRecording Manual.pdf
-├── Task_E-Commerse_App/
+├── Task_E-Commerce_App/
 │   ├── Design Description_E-commerce_Application.pdf   # authoritative requirements
 │   └── Task1.ipynb/                                    # class skeletons + 128 unit tests
 ├── Task_Smart_Home_Gym/
 │   ├── Design Description_SmartHomeGym.pdf
-│   └── Task2.ipynb/                                    # class skeletons + 128 unit tests
+│   └── Task2.ipynb/                                    # class skeletons + 100 unit tests
 ├── README.md
 ├── Prompt Pattern Templates/
 │   ├── Prompt Pattern Template Introduction.pdf

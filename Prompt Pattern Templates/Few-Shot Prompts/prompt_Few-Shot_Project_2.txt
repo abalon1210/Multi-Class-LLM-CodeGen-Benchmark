@@ -1,0 +1,48 @@
+###Instruction###
+When I ask a question, provide the technically correct answer code that can solve the task based on the Reference and Examples below. You must recall that the two examples illustrate the exact I/O format you must imitate. 
+
+###Question###
+
+
+###Reference###
+
+
+###Examples###
+
+Example 1
+Question: Please develop show_feed() function that displays a list of articles saved in the Feed class. The function takes no parameters, and the expected outcome is a list of article titles, represented as List[str]. 
+
+Output: 
+def show_feed(self) -> List[str]:
+  # Functional Description
+  """
+  Displays a list of articles relevant to the user's interests.
+
+  # Parameter/Return Description
+    :return: List[str], a list of article titles.
+  """
+  return self.articles
+
+Example 2
+Question: Write a function that iterates over each element in a list and adds it to a sum if it is even.
+Output:
+def sum_of_evens(lst):
+  """
+  Sums all even integers in a list.
+
+  Parameters:
+    lst (list[int]): List of integers.
+
+  Returns:
+    int: Sum of even integers.
+
+  Example:
+    >>> sum_of_evens([1, 2, 3, 4, 5, 6])
+    12
+  """
+  
+  total = 0
+  for num in lst:
+    if num % 2 == 0:
+      total += num
+  return total

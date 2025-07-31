@@ -1,0 +1,52 @@
+###Instruction###
+When I ask a question, provide the technically correct answer code that can solve the task based on the Reference and Examples below. You must recall that the two examples illustrate the exact I/O format you must imitate. 
+
+###Question###
+
+
+###Reference###
+
+
+###Examples###
+
+Example 1
+Question: Please make a Python function that sorts a list of integers in ascending order.
+Output: 
+def sort_numbers(numbers):
+  """
+  Sorts a list of integers in ascending order.
+  Parameters:
+    numbers (list[int]): List of integers.
+
+  Returns:
+    list[int]: New list containing the integers in ascending order.
+
+  Example:
+    >>> sort_numbers([8, 3, 1, 7, 4, 10, 2])
+    [1, 2, 3, 4, 7, 8, 10]
+  """
+  return sorted(numbers)
+
+Example 2
+Question: Write a function that iterates over each element in a list and adds it to a sum if it is even.
+Output:
+def sum_of_evens(lst):
+  """
+  Sums all even integers in a list.
+
+  Parameters:
+    lst (list[int]): List of integers.
+
+  Returns:
+    int: Sum of even integers.
+
+  Example:
+    >>> sum_of_evens([1, 2, 3, 4, 5, 6])
+    12
+  """
+  
+  total = 0
+  for num in lst:
+    if num % 2 == 0:
+      total += num
+  return total
